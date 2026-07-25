@@ -136,7 +136,7 @@ export default function Skills() {
                         My GitHub Contributions
                     </h3>
                     <a href="https://github.com/makonia20" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit', display: 'block', width: '100%' }}>
-                        <div style={{ minWidth: "800px", display: "flex", justifyContent: "center", cursor: "pointer", transition: "transform 0.3s ease", padding: "10px" }}
+                        <div style={{ display: "flex", justifyContent: "center", cursor: "pointer", transition: "transform 0.3s ease", padding: "10px", width: "100%", overflowX: "auto" }}
                              onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.02)'}
                              onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
                         >
